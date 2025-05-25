@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <!-- <link rel="stylesheet" href="style.css"> for css -->
+     <style>
+         body{
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Student_Lounge_Bulacan_State_University2.jpg/640px-Student_Lounge_Bulacan_State_University2.jpg) no-repeat center fixed;
+            font-family: Century Gothic;
+            background-size: cover;
+
+        }
+        .topright{
+            position: absolute;
+        }
+        .container{
+             display: grid;
+            justify-content: center;
+            width: 350px;
+            height: 500px;
+             position:absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            align-items: center;
+              background-color: bisque;
+            border: 1px solid transparent;
+        }
+        img{
+            width:100px;
+            height:100px;
+            border-radius: 50%;
+           
+        }
+        .content {
+  
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0; top: 0; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.close {
+    float: right; font-size: 24px;
+    cursor: pointer;
+}
+.pic{
+    border:1px solid transparent;
+    background-color: transparent;
+}
+.home{
+background-color: transparent;
+border: 1px solid transparent;
+font:15px bolder;
+transition: 1.5s;
+color:white;
+}
+
+.aboutuus{
+display: grid;
+justify-content: center;
+align-items: center;
+}
+.team{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cn{
+        background-color: #fff;
+    margin: auto; padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+     </style>
+</head>
+<body>
+<div class="topright">
+                <a href="homepage.php" ><button type="button" class="home">< HOME</button></a>
+            </div>
+    <div class="container">
+        <nav>
+             
+            <div class="topleft">
+                <h1 align="center">Our Team</h1>
+            </div>
+           
+        </nav>
+
+        <section class="aboutuus">
+            <div class="team">
+                <button onclick="openModal1()" class="pic" align="center">  <img src="jericho.jpg" alt="pic1" align="center"></button>
+                <h3 align="center"style="margin-bottom: 0;">Jericho S. Dineros</h3>
+                <p align="center">Role: Back-End Developer</p>
+            </div>
+            <div class="team">
+                  <button onclick="openModal2()" class="pic"><img src="IVAN.jpg" alt="pic2" align="center"></button>
+                 <h3 align="center" style="margin-bottom: 0;">Krystian Ivan Alcantara</h3>
+                <p align="center">Role: Front-End Developer</p>
+            </div>
+        </section>
+    </div>
+<div id="modal1" class="modal">
+    <div class="cn">
+         <span onclick="closeModal1()" class="close">&times;</span> 
+    <div class="content">
+        
+         <img src="jericho.jpg" alt="">
+         <h5>Jericho S. Dineros</h5>
+         <h6>Bachelor of Science in Information Technology
+         </h6>
+         <h6>Major in Business Analytics</h6>
+         <h6>BSIT 3B-G2</h6>
+    </div>
+    </div>
+   
+
+</div>
+<div id="modal2" class="modal">
+    <div  class="cn">
+         <span onclick="closeModal2()" class="close">&times;</span> 
+    <div class="content">
+         
+         <img src="IVAN.jpg" alt="">
+         <h5>Krystian Ivan B. Alcantara</h5>
+         <h6>Bachelor of Science in Information Technology
+         </h6>
+         <h6>Major in Business Analytics</h6>
+         <h6>BSIT 3B-G2</h6>
+    </div>
+</div>
+</div>
+</body>
+<script>
+    function openModal1(){
+              document.getElementById("modal1").style.display = "block";
+    }
+    function closeModal1() {
+    document.getElementById("modal1").style.display = "none";
+}
+   function openModal2(){
+              document.getElementById("modal2").style.display = "block";
+    }
+    function closeModal2() {
+    document.getElementById("modal2").style.display = "none";
+}
+</script>
+</html>

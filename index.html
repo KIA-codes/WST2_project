@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Centered Button</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Century Gothic;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(white,rgb(228, 228, 118),rgb(228, 173, 73),rgb(235, 68, 68));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .center-button {
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      background-color: red;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .center-button:hover {
+      background-color: yellow;
+      color:black;
+    }
+        .title{
+           
+            position: absolute;
+            right:5%;
+            bottom: 5%;
+           align-items: right;
+        }
+  </style>
+</head>
+<body>
+<div class="title">
+      <h1 align="right" style="margin-top: 0; margin-bottom: 0; font-size: 30px; color: white;" class="one">Dineros and Alcantara</h1>
+        <h2 align="center" style="font-size: 100px; margin-bottom:0; color: beige;">Student Management System</h2>
+        <h5 align="left" style="margin-top:0;margin-left:80px; color:yellow; font-size: 30px;">Project in IT 301 - Web Systems and Technologies 2</h5>
+    </div>
+
+</div>
+  <button class="center-button" onclick="location.href='login.php'">Enter</button>
+
+</body>
+</html>
+

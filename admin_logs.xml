@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<logs>
+    <entry>
+        <username>admin1</username>
+        <action>Logged in</action>
+        <timestamp>2025-05-15 09:30:00</timestamp>
+    </entry>
+    <entry>
+        <username>admin1</username>
+        <action>Logged out</action>
+        <timestamp>2025-05-15 17:30:00</timestamp>
+    </entry>
+<entry><username>ivan111</username><action>Logged in</action><timestamp>2025-05-25 10:03:02</timestamp></entry>
+<entry><username>ivan111</username><action>Logged in</action><timestamp>2025-05-25 10:03:15</timestamp></entry>
+<entry><username>ivan111</username><action>Logged in</action><timestamp>2025-05-25 10:06:24</timestamp></entry>
+<entry><username>ivan111</username><action>Logged out</action><timestamp>2025-05-25 10:06:26</timestamp></entry>
+<entry><username>ivan111</username><action>Logged in</action><timestamp>2025-05-25 10:20:03</timestamp></entry><entry><username>ivan111</username><action>Logged out</action><timestamp>2025-05-25 16:26:58</timestamp></entry><entry><username>ivan111</username><action>Logged in</action><timestamp>2025-05-25 16:39:43</timestamp></entry><entry><username>ivan111</username><action>Logged out</action><timestamp>2025-05-25 16:51:02</timestamp></entry><entry><username>ivan111</username><action>Logged in</action><timestamp>2025-05-25 16:53:39</timestamp></entry><entry><username>ivan111</username><action>Logged out</action><timestamp>2025-05-25 16:55:22</timestamp></entry><entry><username>krystian</username><action>Logged in</action><timestamp>2025-05-25 17:03:33</timestamp></entry><entry><username>krystian</username><action>Logged out</action><timestamp>2025-05-25 17:09:05</timestamp></entry><entry><username>ivan111</username><action>Logged in</action><timestamp>2025-05-25 17:09:18</timestamp></entry><entry><username>ivan111</username><action>Logged out</action><timestamp>2025-05-25 17:39:22</timestamp></entry></logs>
